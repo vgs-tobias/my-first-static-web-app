@@ -9,5 +9,9 @@
    }  
    ,"networking": {
     "allowedIpRanges": ["AzureFrontDoor.Backend"]
-  }
+  } 
+  , "responseOverrides": {    
+    "403": {
+    "rewrite": "/403.html"
+    }
   }
