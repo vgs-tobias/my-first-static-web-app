@@ -6,10 +6,10 @@
   "allowedForwardedHosts": [
     "itsd.test.cspaz.vwgroup.se"
   ]
- } 
- "responseOverrides": {
-    "404": {
-      "rewrite": "/404.html"
-    }
-  }
+ }  
+}
+{
+ "networking": {
+  "allowedIpRanges": ["AzureFrontDoor.Backend"]
+ }
 }
