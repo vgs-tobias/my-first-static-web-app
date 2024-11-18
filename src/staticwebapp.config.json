@@ -1,5 +1,9 @@
 {   
-  "forwardingGateway": {
+  "responseOverrides": {    
+    "403": {
+    "rewrite": "/403.html"
+    }
+  , "forwardingGateway": {
     "requiredHeaders": {
       "X-Azure-FDID" : "e8cf9409-74d1-44cb-b307-fb48133389bf"
     },
@@ -10,9 +14,5 @@
    ,"networking": {
     "allowedIpRanges": ["AzureFrontDoor.Backend"]
   } 
-  , "responseOverrides": {    
-    "403": {
-    "rewrite": "/403.html"
-    }
-  }
+ }
 }
