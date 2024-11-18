@@ -11,6 +11,6 @@
     "X-Azure-FDID" : "e8cf9409-74d1-44cb-b307-fb48133389bf"
   },
   "allowedForwardedHosts": [
-    "mango-smoke-0b714e603.5.azurestaticapps.net"
+    "itsd.test.cspaz.vwgroup.se"
   ]
 }
