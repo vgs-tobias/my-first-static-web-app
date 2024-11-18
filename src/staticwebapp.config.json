@@ -1,3 +1,4 @@
+{
 "networking": {
   "allowedIpRanges": ["AzureFrontDoor.Backend"]
 }
@@ -8,4 +9,5 @@
   "allowedForwardedHosts": [
     "itsd.test.cspaz.vwgroup.se"
   ]
+}
 }
