@@ -1,7 +1,13 @@
 {
-  "responseOverrides": {
-    "404": {
-      "rewrite": "/404.html"
-    }
-  }
+  "networking": {
+  "allowedIpRanges": ["AzureFrontDoor.Backend"]
+ }  
+"forwardingGateway": {
+  "requiredHeaders": {
+    "X-Azure-FDID" : "e8cf9409-74d1-44cb-b307-fb48133389bf"
+  },
+  "allowedForwardedHosts": [
+    "itsd.test.cspaz.vwgroup.se"
+  ]
+} 
 }
