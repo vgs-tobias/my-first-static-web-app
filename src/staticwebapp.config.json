@@ -5,6 +5,7 @@
     }
     ,"allowedForwardedHosts": [
       "itsd.test.cspaz.vwgroup.se"
+      ,"itsdtestapp.test.cspaz.vwgroup.se"
     ]  
    }  
    ,"networking": {
