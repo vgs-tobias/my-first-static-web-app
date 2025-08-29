@@ -8,6 +8,10 @@
     ]  
    }  
    ,"networking": {
-    "allowedIpRanges": ["AzureFrontDoor.Backend"]
+    "allowedIpRanges": [
+      "AzureFrontDoor.Backend"
+      ,"193.182.2.0/24"
+      ,"10.0.0.0/16"    
+    ]
   }
 } 
